@@ -15,7 +15,7 @@ A personal portfolio website built using Next.js, Tailwind CSS, and Aceternity U
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/your-username/your-portfolio.git
+   git clone https://github.com/dipnerreddy/dipnerreddyPortfolio.git
    ```
 2. Navigate to the project directory
 

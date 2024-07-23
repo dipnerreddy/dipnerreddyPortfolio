@@ -1,28 +1,60 @@
-import { FaLocationArrow } from "react-icons/fa6";
+import { FaDownload, FaLocationArrow } from "react-icons/fa6";
 
-import { socialMedia } from "@/data";
+import { resume, socialMedia } from "@/data";
 import MagicButton from "./MagicButton";
+import { BackgroundBeams } from "./ui/background-beams";
 
 const Footer = () => {
   return (
     <footer className="w-full pt-20 pb-10" id="contact">
-      <div className="flex flex-col items-center">
-        <h1 className="heading lg:max-w-[45vw]">
-          Ready to take <span className="text-purple">your</span> digital
-          presence to the next level?
-        </h1>
-        <p className="text-white-200 md:mt-10 my-5 text-center">
-          Reach out to me today and let&apos;s discuss how I can help you
-          achieve your goals.
-        </p>
-        <a href="mailto:dipnerreddy9@gmail.com">
-          <MagicButton
-            title="Let's get in touch"
-            icon={<FaLocationArrow />}
-            position="right"
-          />
-        </a>
+      <div className="flex flex-col md:flex-row items-center justify-center p-4 gap-16 mt-10">
+        <div className="flex flex-col items-center justify-center">
+          <h1 className="heading lg:max-w-[45vw]">
+            Ready to take <span className="text-purple">your</span> digital
+            presence to the next level?
+          </h1>
+          <p className="text-white-200 md:mt-10 my-5 text-center">
+            Reach out to me today and let&apos;s discuss how I can help you
+            achieve your goals.
+          </p>
+          <a href="mailto:dipnerreddy9@gmail.com">
+            <MagicButton
+              title="Let's get in touch"
+              icon={<FaLocationArrow />}
+              position="right"
+            />
+          </a>
+        </div>
+
+        <div className="flex flex-col items-center justify-center">
+          <h1 className="heading lg:max-w-[45vw] mb-19">
+            If you'd like Missing{" "}
+            <span className="text-purple">Something...?</span>
+          </h1>
+          <p></p>
+          <p className="text-white-200 mt-20 md:mt-10 text-center">
+            explore more details about my professional journey and the projects
+            <br></br> I've worked on, please feel free to check out my resume.
+          </p>
+
+          <a
+            href="/resume.pdf"
+            download={resume.link}
+            className="flex flex-col items-center"
+          >
+            <MagicButton
+              title="Download Now"
+              icon={<FaDownload />}
+              position="right"
+            />
+            {/* <button className="inline-flex h-12 animate-shimmer items-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-purple transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 gap-3">
+              Download Now
+              <FaDownload />
+            </button> */}
+          </a>
+        </div>
       </div>
+
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light">
           Copyright © 2024{" "}

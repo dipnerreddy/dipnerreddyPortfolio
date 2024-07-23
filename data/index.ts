@@ -220,3 +220,7 @@ export const socialMedia = [
     link: "https://www.instagram.com/dipnerreddy.d_r/",
   },
 ];
+
+export const resume = {
+  link: "/resume.pdf",
+};

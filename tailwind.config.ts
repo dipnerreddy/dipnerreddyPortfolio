@@ -1,3 +1,4 @@
+import { DEFAULT } from "@react-three/fiber/dist/declarations/src/core/utils";
 import type { Config } from "tailwindcss";
 
 const svgToDataUri = require("mini-svg-data-uri");
@@ -32,6 +33,11 @@ const config = {
           100: "#000319",
           200: "rgba(17, 25, 40, 0.75)",
           300: "rgba(255, 255, 255, 0.125)",
+        },
+        dipner: {
+          DEFAULT: "#CBACF9",
+          100: "#05071D",
+          200: "#010319",
         },
         white: {
           DEFAULT: "#FFF",
@@ -157,6 +163,7 @@ const config = {
         third: "moveInCircle 40s linear infinite",
         fourth: "moveHorizontal 40s ease infinite",
         fifth: "moveInCircle 20s ease infinite",
+
         scroll:
           "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
       },

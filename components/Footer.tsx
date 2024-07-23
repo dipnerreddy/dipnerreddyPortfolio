@@ -28,17 +28,18 @@ const Footer = () => {
 
         <div className="flex flex-col items-center justify-center">
           <h1 className="heading lg:max-w-[45vw] mb-19">
-            If you'd like Missing{" "}
+            If you&apos;d like Missing{" "}
             <span className="text-purple">Something...?</span>
           </h1>
           <p></p>
           <p className="text-white-200 mt-20 md:mt-10 text-center">
             explore more details about my professional journey and the projects
-            <br></br> I've worked on, please feel free to check out my resume.
+            <br></br> I&apos;ve worked on, please feel free to check out my
+            resume.
           </p>
 
           <a
-            href="/resume.pdf"
+            href="https://drive.google.com/file/d/17kegiT_5Jon7MeebKZ6oSkpO0YnrjrNz/view?usp=drive_link"
             download={resume.link}
             className="flex flex-col items-center"
           >

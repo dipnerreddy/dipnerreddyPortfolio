@@ -222,5 +222,5 @@ export const socialMedia = [
 ];
 
 export const resume = {
-  link: "/resume.pdf",
+  link: "https://drive.google.com/file/d/17kegiT_5Jon7MeebKZ6oSkpO0YnrjrNz/view?usp=drive_link",
 };

@@ -17,7 +17,7 @@ const Footer = () => {
             Reach out to me today and let&apos;s discuss how I can help you
             achieve your goals.
           </p>
-          <a href="mailto:dipnerreddy9@gmail.com">
+          <a href="mailto:contact@dipnerreddy.in">
             <MagicButton
               title="Let's get in touch"
               icon={<FaLocationArrow />}
@@ -47,10 +47,6 @@ const Footer = () => {
               icon={<FaDownload />}
               position="right"
             />
-            {/* <button className="inline-flex h-12 animate-shimmer items-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-purple transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 gap-3">
-              Download Now
-              <FaDownload />
-            </button> */}
           </a>
         </div>
       </div>
